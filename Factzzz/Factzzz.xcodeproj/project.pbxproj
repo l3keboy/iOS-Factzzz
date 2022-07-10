@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1774174287AA1B000889374 /* FactzzzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774173287AA1B000889374 /* FactzzzApp.swift */; };
+		B1774176287AA1B000889374 /* FactzzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774175287AA1B000889374 /* FactzzzView.swift */; };
+		B1774178287AA1B100889374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1774177287AA1B100889374 /* Assets.xcassets */; };
+		B177417B287AA1B100889374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B177417A287AA1B100889374 /* Preview Assets.xcassets */; };
+		B177417D287AA1B100889374 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B177417C287AA1B100889374 /* PersistanceController.swift */; };
+		B1774180287AA1B100889374 /* Factzzz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B177417E287AA1B100889374 /* Factzzz.xcdatamodeld */; };
+		B177418B287AA1F700889374 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B177418A287AA1F700889374 /* SplashScreenView.swift */; };
+		B1774193287AFEE800889374 /* Fredoka-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1774191287AFEE800889374 /* Fredoka-VariableFont_wdth,wght.ttf */; };
+		B1774194287AFEE800889374 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1774192287AFEE800889374 /* FredokaOne-Regular.ttf */; };
+		B1774196287B012300889374 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774195287B012300889374 /* FavoritesView.swift */; };
+		B1774198287B094F00889374 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774197287B094F00889374 /* FactModel.swift */; };
+		B177419A287B0A2300889374 /* FactzzzViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1774199287B0A2300889374 /* FactzzzViewModel.swift */; };
+		B177419D287B1CEA00889374 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B177419C287B1CEA00889374 /* ShareViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1774170287AA1B000889374 /* Factzzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factzzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1774173287AA1B000889374 /* FactzzzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactzzzApp.swift; sourceTree = "<group>"; };
+		B1774175287AA1B000889374 /* FactzzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactzzzView.swift; sourceTree = "<group>"; };
+		B1774177287AA1B100889374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B177417A287AA1B100889374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B177417C287AA1B100889374 /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
+		B177417F287AA1B100889374 /* Factzzz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Factzzz.xcdatamodel; sourceTree = "<group>"; };
+		B177418A287AA1F700889374 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		B1774190287AA33400889374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B1774191287AFEE800889374 /* Fredoka-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		B1774192287AFEE800889374 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		B1774195287B012300889374 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B1774197287B094F00889374 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		B1774199287B0A2300889374 /* FactzzzViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactzzzViewModel.swift; sourceTree = "<group>"; };
+		B177419C287B1CEA00889374 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B177416D287AA1B000889374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1774167287AA1B000889374 = {
+			isa = PBXGroup;
+			children = (
+				B1774172287AA1B000889374 /* Factzzz */,
+				B1774171287AA1B000889374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1774171287AA1B000889374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1774170287AA1B000889374 /* Factzzz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1774172287AA1B000889374 /* Factzzz */ = {
+			isa = PBXGroup;
+			children = (
+				B1774190287AA33400889374 /* Info.plist */,
+				B1774186287AA1B800889374 /* Fonts */,
+				B1774189287AA1C900889374 /* ViewModels */,
+				B1774188287AA1C500889374 /* Models */,
+				B1774187287AA1BD00889374 /* Views */,
+				B1774173287AA1B000889374 /* FactzzzApp.swift */,
+				B1774177287AA1B100889374 /* Assets.xcassets */,
+				B1774179287AA1B100889374 /* Preview Content */,
+			);
+			path = Factzzz;
+			sourceTree = "<group>";
+		};
+		B1774179287AA1B100889374 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B177417A287AA1B100889374 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1774186287AA1B800889374 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1774191287AFEE800889374 /* Fredoka-VariableFont_wdth,wght.ttf */,
+				B1774192287AFEE800889374 /* FredokaOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B1774187287AA1BD00889374 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B177419B287B1CDE00889374 /* Compontents */,
+				B1774175287AA1B000889374 /* FactzzzView.swift */,
+				B177418A287AA1F700889374 /* SplashScreenView.swift */,
+				B1774195287B012300889374 /* FavoritesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1774188287AA1C500889374 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B177417E287AA1B100889374 /* Factzzz.xcdatamodeld */,
+				B1774197287B094F00889374 /* FactModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1774189287AA1C900889374 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B177417C287AA1B100889374 /* PersistanceController.swift */,
+				B1774199287B0A2300889374 /* FactzzzViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B177419B287B1CDE00889374 /* Compontents */ = {
+			isa = PBXGroup;
+			children = (
+				B177419C287B1CEA00889374 /* ShareViewController.swift */,
+			);
+			path = Compontents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B177416F287AA1B000889374 /* Factzzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1774183287AA1B100889374 /* Build configuration list for PBXNativeTarget "Factzzz" */;
+			buildPhases = (
+				B177416C287AA1B000889374 /* Sources */,
+				B177416D287AA1B000889374 /* Frameworks */,
+				B177416E287AA1B000889374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Factzzz;
+			productName = Factzzz;
+			productReference = B1774170287AA1B000889374 /* Factzzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1774168287AA1B000889374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B177416F287AA1B000889374 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B177416B287AA1B000889374 /* Build configuration list for PBXProject "Factzzz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1774167287AA1B000889374;
+			productRefGroup = B1774171287AA1B000889374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B177416F287AA1B000889374 /* Factzzz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B177416E287AA1B000889374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B177417B287AA1B100889374 /* Preview Assets.xcassets in Resources */,
+				B1774193287AFEE800889374 /* Fredoka-VariableFont_wdth,wght.ttf in Resources */,
+				B1774178287AA1B100889374 /* Assets.xcassets in Resources */,
+				B1774194287AFEE800889374 /* FredokaOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B177416C287AA1B000889374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1774180287AA1B100889374 /* Factzzz.xcdatamodeld in Sources */,
+				B177419D287B1CEA00889374 /* ShareViewController.swift in Sources */,
+				B177419A287B0A2300889374 /* FactzzzViewModel.swift in Sources */,
+				B177417D287AA1B100889374 /* PersistanceController.swift in Sources */,
+				B1774198287B094F00889374 /* FactModel.swift in Sources */,
+				B1774196287B012300889374 /* FavoritesView.swift in Sources */,
+				B177418B287AA1F700889374 /* SplashScreenView.swift in Sources */,
+				B1774176287AA1B000889374 /* FactzzzView.swift in Sources */,
+				B1774174287AA1B000889374 /* FactzzzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1774181287AA1B100889374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1774182287AA1B100889374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1774184287AA1B100889374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Factzzz/Preview Content\"";
+				DEVELOPMENT_TEAM = T49HPJF6KX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Factzzz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lukehendriks.Factzzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1774185287AA1B100889374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Factzzz/Preview Content\"";
+				DEVELOPMENT_TEAM = T49HPJF6KX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Factzzz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lukehendriks.Factzzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B177416B287AA1B000889374 /* Build configuration list for PBXProject "Factzzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1774181287AA1B100889374 /* Debug */,
+				B1774182287AA1B100889374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1774183287AA1B100889374 /* Build configuration list for PBXNativeTarget "Factzzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1774184287AA1B100889374 /* Debug */,
+				B1774185287AA1B100889374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B177417E287AA1B100889374 /* Factzzz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B177417F287AA1B100889374 /* Factzzz.xcdatamodel */,
+			);
+			currentVersion = B177417F287AA1B100889374 /* Factzzz.xcdatamodel */;
+			path = Factzzz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1774168287AA1B000889374 /* Project object */;
+}
