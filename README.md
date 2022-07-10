@@ -7,7 +7,8 @@ Tested with iOS 15.0 on iPhone and iPad!
 ## Factzzz features
 The Factzzz app has different features as listed below (in no particular order):
 - Generate random facts;
-- Ability to save facts (local device only!)
+- Ability to save facts (local device only!);
+- Ability to remove saved facts;
 - Share a fact;
 
 <br>
