@@ -1,5 +1,5 @@
 # iOS-Factzzz
-A simple app which gives random, sometimes maybe even useless, facts.
+A simple app which gives random, sometimes maybe even useless, facts[^2].
 Tested with iOS 15.0 on iPhone and iPad!
 
 <br>
