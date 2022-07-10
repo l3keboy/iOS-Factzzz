@@ -1,2 +1,2 @@
 # iOS-Factzzz
-iOS app Factzzz
+iOS Factzzz App
