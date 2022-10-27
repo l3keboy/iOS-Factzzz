@@ -66,7 +66,7 @@ struct FactzzzView: View {
                     Spacer()
                 }
             }
-            .sheet(isPresented: $showingShareSheet, content: { ShareViewController(itemsToShare: [factzzzViewModel.retrievedFact?.text]) })
+            .sheet(isPresented: $showingShareSheet, content: { ShareViewController(itemsToShare: [factzzzViewModel.retrievedFact?.text ?? "Unable to load fact"]) })
             .ignoresSafeArea()
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {

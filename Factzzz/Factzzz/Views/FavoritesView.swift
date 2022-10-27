@@ -14,6 +14,7 @@ struct FavoritesView: View {
     
     var body: some View {
         ZStack {
+            Color("PrimaryColor").ignoresSafeArea()
             List {
                 Section {
                     ForEach(savedFacts) { fact in
@@ -28,6 +29,7 @@ struct FavoritesView: View {
                     .listRowBackground(Color("SecondaryColor").opacity(0.75).ignoresSafeArea())
                 }
             }
+            .scrollContentBackground(.hidden)
         }
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
